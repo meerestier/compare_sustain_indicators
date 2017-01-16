@@ -1,130 +1,175 @@
-"","indicator_sds.1","indicator_sds.2"
-"1",Real GDP per capita, growth rate and totals ,tsdec100)
-"2",Investment by institutional sectors ,tsdec210)
-"3",Net national income ,tsdec230)
-"4",Household saving rate ,tsdec240)
-"5",Real adjusted gross disposable income of households per capita ,tec00113)
-"6",Labour productivity per hour worked ,ESA 2010) (tsdec310)
-"7",Total R&D expenditure ,tsdec320)
-"8",Real effective exchange rate - 37 trading partners ,tsdec330)
-"9",Turnover from innovation ,tsdec340)
-"10",Energy intensity of the economy ,tsdec360)
-"11",Eco-innovation index ,t2020_rt200)
-"12",Total employment rate ,tsdec410)
-"13",Employment rate by educational attainment level ,tsdec430)
-"14",Dispersion of regional employment rates, by sex ,tsdec440)
-"15",Total unemployment rate ,tsdec450)
-"16",Young people neither in employment nor in education and training ,15-24 years) - % of the total
-"17",population in the s,...) (tipslm90)
-"18",Nominal unit labour cost - 3 years % change ,tipslm10)
-"19",Resource productivity ,tsdpc100)
-"20",Generation of waste excluding major mineral wastes ,tsdpc210)
-"21",Components of domestic material consumption ,tsdpc220)
-"22",Domestic material consumption by material - 1 000 t ,tsdpc230)
-"23",Municipal waste generation and treatment, by type of treatment method ,tsdpc240)
-"24",Generation of hazardous waste by economic activity ,tsdpc250)
-"25",Emissions of sulphur oxides ,SOx) by source sector (tsdpc260)
-"26",Emissions of nitrogen oxides ,NOx) by source sector (tsdpc270)
-"27",Emissions of non-methane volatile organic compounds ,NMVOC) by source sector (tsdpc280)
-"28",Emissions of ammonia ,NH3), by source sector (tsdpc290)
-"29",Electricity consumption by households ,tsdpc310)
-"30",Final energy consumption by sector ,tsdpc320)
-"31",Motorisation rate ,tsdpc340)
-"32",Organisations and sites with eco-management and audit scheme ,EMAS) registration (tsdpc410)
-"33",Ecolabel licenses ,tsdpc420)
-"34",Area under agri-environmental commitment ,tsdpc430)
-"35",Area under organic farming ,tsdpc440)
-"36",Livestock density index ,tsdpc450)
-"37",Number of persons in households ,tsdpc510)
-"38",Final consumption expenditure of households, by consumption purpose ,tsdpc520)
-"39",People at risk of poverty or social exclusion ,tsdsc100)
-"40",Persistent-at-risk-of-poverty rate ,tsdsc210)
-"41",Relative median at-risk-of-poverty gap ,tsdsc250)
-"42",Inequality of income distribution ,tsdsc260)
-"43",Severely materially deprived people ,tsdsc270)
-"44",People at risk of poverty after social transfers ,tsdsc280)
-"45",People living in households with very low work intensity ,tsdsc310)
-"46",In work at-risk-of-poverty rate ,tsdsc320)
-"47",Long-term unemployment rate, by sex ,tsdsc330)
-"48",Gender pay gap in unadjusted form ,tsdsc340)
-"49",Early leavers from education and training ,tsdsc410)
-"50",At-risk-of-poverty-rate, by highest level of education attained ,tsdsc420)
-"51",At most lower secondary educational attainment by age ,tsdsc430)
-"52",Lifelong learning ,tsdsc440)
-"53",Low reading literacy performance of pupils ,tsdsc450)
-"54",Individuals' level of computer skills ,tsdsc460)
-"55",Individuals' level of internet skills ,tsdsc470)
-"56",Tertiary educational attainment by sex, age group 30-34 ,tsdsc480)
-"57",Public expenditure on education ,tsdsc510)
-"58",Employment rate of older workers ,tsdde100)
-"59",Total fertility rate ,tsdde220)
-"60",Crude rate of net migration plus adjustment ,tsdde230)
-"61",Healthy life years and life expectancy at age 65, by sex ,tsdph220)
-"62",Crude rate of population change ,tps00006)
-"63",Aggregate replacement ratio ,tsdde310)
-"64",General government gross debt ,tsdde410)
-"65",Duration of working life ,tsdde420)
-"66",Old-age-dependency ratio ,tsdde510)
-"67",Projected old-age dependency ratio ,tsdde511)
-"68",Population projections ,tps00002)
-"69",Pension expenditure projections ,baseline scenario) (tsdde520)
-"70",Expenditure on care for elderly ,tsdde530)
-"71",Healthy life years and life expectancy at birth, by sex ,tsdph100)
-"72",Death rate due to chronic diseases ,tsdph210)
-"73",Suicide death rate, by age group ,tsdph240)
-"74",Self-reported unmet needs for medical care due to being too expensive, by income quintile ,tsdph270)
-"75",People having a long-standing illness or health problem, by income quintile ,tsdph280)
-"76",Production of toxic chemicals, by toxicity class ,tsdph320)
-"77",Urban population exposure to air pollution by particulate matter ,tsdph370)
-"78",Urban population exposure to air pollution by ozone ,tsdph380)
-"79",Proportion of population living in households considering that they suffer from noise ,tsdph390)
-"80",Non-fatal accidents at work by sex ,NACE Rev. 2, A, C-N) (tsdph400)
-"81",Greenhouse gas emissions ,tsdcc100)
-"82",Primary energy consumption ,tsdcc120)
-"83",Greenhouse gas emissions by sector ,source: EEA) (tsdcc210)
-"84",Greenhouse gas emissions intensity of energy consumption ,tsdcc220)
-"85",Energy dependence ,tsdcc310)
-"86",Share of renewable energy in gross final energy consumption ,t2020_31)
-"87",Gross inland energy consumption by fuel type ,tsdcc320)
-"88",Electricity generated from renewable sources ,tsdcc330)
-"89",Share of renewable energy in fuel consumption of transport ,tsdcc340)
-"90",Combined heat and power generation ,tsdcc350)
-"91",Energy consumption of transport relative to GDP ,tsdtr100)
-"92",Modal split of passenger transport ,tsdtr210)
-"93",Modal split of freight transport ,tsdtr220)
-"94",Volume of freight transport relative to GDP ,tsdtr230)
-"95",Volume of passenger transport relative to GDP ,tsdtr240)
-"96",Energy consumption of transport, by mode ,tsdtr250)
-"97",Greenhouse gas emissions from transport ,tsdtr410)
-"98",People killed in road accidents ,tsdtr420)
-"99",Emissions of nitrogen oxides ,NOx) from transport (tsdtr430)
-"100",Emissions of particulate matter from transport ,tsdtr440)
-"101",Average carbon dioxide emissions per km from new passenger cars ,tsdtr450)
-"102",HICP - annual average indices for transport prices ,tsdtr310)
-"103",Common bird index ,tsdnr100)
-"104",Sufficiency of sites designated under the EU Habitats directive ,tsdnr210)
-"105",Water exploitation index ,tsdnr310)
-"106",Population connected to urban wastewater treatment with at least secondary treatment ,tsdnr320)
-"107",Biochemical oxygen demand in rivers ,tsdnr330)
-"108",Fishing fleet, total engine power ,tsdnr420)
-"109",Artificial land cover ,tsdnr510)
-"110",Forest increment and fellings ,tsdnr520)
-"111",Gross nutrient balance on agricultural land ,t2020_rn310)
-"112",Official development assistance as share of gross national income ,tsdgp100)
-"113",EU Imports from developing countries by income group ,tsdgp210)
-"114",EU Imports from developing countries by group of products ,tsdgp220)
-"115",EU imports from least-developed countries by group of products ,tsdgp230)
-"116",Aggregated measurement of support for agriculture ,tsdgp240)
-"117",EU financing for developing countries, by type ,tsdgp310)
-"118",Foreign direct investment in developing countries, by income group ,tsdgp320)
-"119",Official development assistance, by income group ,tsdgp330)
-"120",Untied official development assistance ,tsdgp340)
-"121",Bilateral official development assistance, by category ,tsdgp350)
-"122",CO2 emissions per inhabitant in the EU and in developing countries ,tsdgp410)
-"123",Official Development Assistance per capita in donor and recipient countries ,tsdgp520)
-"124",New infringement cases ,tsdgo210)
-"125",Transposition deficit ,tsdgo220)
-"126",Voter turnout in national and EU parliamentary elections ,tsdgo310)
-"127",Shares of environmental and labour taxes in total tax revenues from taxes and social contributions ,tsdgo410)
-"128",Implicit tax rate on energy ,tsdcc360)
-"129",Level of citizens' confidence in EU institutions ,tsdgo510)
+"","indicator_sds.1","indicator_sds.2","id"
+"1",Sustainable Development indicators,sd),"( sd)"
+"2",Socioeconomic development,sd_ec),"( sd_ec)"
+"3",Real GDP per capita, growth rate and totals,tsdec100),"( tsdec100)"
+"4",Economic development,sd_ec_dev),"( sd_ec_dev)"
+"5",Investment by institutional sectors,tsdec210),"( tsdec210)"
+"6",Net national income,tsdec230),"( tsdec230)"
+"7",Household saving rate,tsdec240),"( tsdec240)"
+"8",Real adjusted gross disposable income of households per capita,tec00113),"( tec00113)"
+"9",Innovation, competitiveness and eco-efficiency,sd_ec_inn),"( sd_ec_inn)"
+"10",Labour productivity per hour worked,ESA 2010) (tsdec310),"( ESA 2010) (tsdec310)"
+"11",Total R&D expenditure,tsdec320),"( tsdec320)"
+"12",Real effective exchange rate - 37 trading partners,tsdec330),"( tsdec330)"
+"13",Turnover from innovation,tsdec340),"( tsdec340)"
+"14",Energy intensity of the economy,tsdec360),"( tsdec360)"
+"15",Eco-innovation index,t2020_rt200),"( t2020_rt200)"
+"16",Employment,sd_ec_emp),"( sd_ec_emp)"
+"17",Total employment rate,tsdec410),"( tsdec410)"
+"18",Employment rate by educational attainment level,tsdec430),"( tsdec430)"
+"19",Dispersion of regional employment rates, by sex,tsdec440),"( tsdec440)"
+"20",Total unemployment rate,tsdec450),"( tsdec450)"
+"21",Young people neither in employment nor in education and training,15-24 years) - % of the total,"( 15-24 years) - % of the total"
+"22",population in the s(...),tipslm90),"( tipslm90)"
+"23",Nominal unit labour cost - 3 years % change,tipslm10),"( tipslm10)"
+"24",Sustainable consumption and production,sd_pc),"( sd_pc)"
+"25",Resource productivity,tsdpc100),"( tsdpc100)"
+"26",Resource use and waste,sd_pc_ruw),"( sd_pc_ruw)"
+"27",Generation of waste excluding major mineral wastes,tsdpc210),"( tsdpc210)"
+"28",Components of domestic material consumption,tsdpc220),"( tsdpc220)"
+"29",Domestic material consumption by material - 1 000 t,tsdpc230),"( tsdpc230)"
+"30",Municipal waste generation and treatment, by type of treatment method,tsdpc240),"( tsdpc240)"
+"31",Generation of hazardous waste by economic activity,tsdpc250),"( tsdpc250)"
+"32",Emissions of sulphur oxides,SOx) by source sector (tsdpc260),"( SOx) by source sector (tsdpc260)"
+"33",Emissions of nitrogen oxides,NOx) by source sector (tsdpc270),"( NOx) by source sector (tsdpc270)"
+"34",Emissions of non-methane volatile organic compounds,NMVOC) by source sector (tsdpc280),"( NMVOC) by source sector (tsdpc280)"
+"35",Emissions of ammonia,NH3), by source sector (tsdpc290),"( NH3), by source sector (tsdpc290)"
+"36",Consumption patterns,sd_pc_con),"( sd_pc_con)"
+"37",Electricity consumption by households,tsdpc310),"( tsdpc310)"
+"38",Final energy consumption by sector,tsdpc320),"( tsdpc320)"
+"39",Motorisation rate,tsdpc340),"( tsdpc340)"
+"40",Production patterns,sd_pc_pro),"( sd_pc_pro)"
+"41",Organisations and sites with eco-management and audit scheme,EMAS) registration (tsdpc410),"( EMAS) registration (tsdpc410)"
+"42",Ecolabel licenses,tsdpc420),"( tsdpc420)"
+"43",Area under agri-environmental commitment,tsdpc430),"( tsdpc430)"
+"44",Area under organic farming,tsdpc440),"( tsdpc440)"
+"45",Livestock density index,tsdpc450),"( tsdpc450)"
+"46",Contextual indicators,sd_pc_cxt),"( sd_pc_cxt)"
+"47",Number of persons in households,tsdpc510),"( tsdpc510)"
+"48",Final consumption expenditure of households, by consumption purpose,tsdpc520),"( tsdpc520)"
+"49",Social inclusion,sd_sc),"( sd_sc)"
+"50",People at risk of poverty or social exclusion,tsdsc100),"( tsdsc100)"
+"51",Monetary poverty and living conditions,sd_sc_pov),"( sd_sc_pov)"
+"52",Persistent-at-risk-of-poverty rate,tsdsc210),"( tsdsc210)"
+"53",Relative median at-risk-of-poverty gap,tsdsc250),"( tsdsc250)"
+"54",Inequality of income distribution,tsdsc260),"( tsdsc260)"
+"55",Severely materially deprived people,tsdsc270),"( tsdsc270)"
+"56",People at risk of poverty after social transfers,tsdsc280),"( tsdsc280)"
+"57",Access to labour market,sd_sc_lmk),"( sd_sc_lmk)"
+"58",People living in households with very low work intensity,tsdsc310),"( tsdsc310)"
+"59",In work at-risk-of-poverty rate,tsdsc320),"( tsdsc320)"
+"60",Long-term unemployment rate, by sex,tsdsc330),"( tsdsc330)"
+"61",Gender pay gap in unadjusted form,tsdsc340),"( tsdsc340)"
+"62",Education,sd_sc_edu),"( sd_sc_edu)"
+"63",Early leavers from education and training,tsdsc410),"( tsdsc410)"
+"64",At-risk-of-poverty-rate, by highest level of education attained,tsdsc420),"( tsdsc420)"
+"65",At most lower secondary educational attainment by age,tsdsc430),"( tsdsc430)"
+"66",Lifelong learning,tsdsc440),"( tsdsc440)"
+"67",Low reading literacy performance of pupils,tsdsc450),"( tsdsc450)"
+"68",Individuals' level of computer skills,tsdsc460),"( tsdsc460)"
+"69",Individuals' level of internet skills,tsdsc470),"( tsdsc470)"
+"70",Tertiary educational attainment by sex, age group 30-34,tsdsc480),"( tsdsc480)"
+"71",Contextual indicators,sd_sc_cxt),"( sd_sc_cxt)"
+"72",Public expenditure on education,tsdsc510),"( tsdsc510)"
+"73",Demographic changes,sd_de),"( sd_de)"
+"74",Employment rate of older workers,tsdde100),"( tsdde100)"
+"75",Demography,sd_de_dem),"( sd_de_dem)"
+"76",Total fertility rate,tsdde220),"( tsdde220)"
+"77",Crude rate of net migration plus adjustment,tsdde230),"( tsdde230)"
+"78",Healthy life years and life expectancy at age 65, by sex,tsdph220),"( tsdph220)"
+"79",Crude rate of population change,tps00006),"( tps00006)"
+"80",Old-age income adequacy,sd_de_inc),"( sd_de_inc)"
+"81",Aggregate replacement ratio,tsdde310),"( tsdde310)"
+"82",Public finance sustainability,sd_de_fin),"( sd_de_fin)"
+"83",General government gross debt,tsdde410),"( tsdde410)"
+"84",Duration of working life,tsdde420),"( tsdde420)"
+"85",Contextual indicators,sd_de_cxt),"( sd_de_cxt)"
+"86",Old-age-dependency ratio,tsdde510),"( tsdde510)"
+"87",Projected old-age dependency ratio,tsdde511),"( tsdde511)"
+"88",Population projections,tps00002),"( tps00002)"
+"89",Pension expenditure projections,baseline scenario) (tsdde520),"( baseline scenario) (tsdde520)"
+"90",Expenditure on care for elderly,tsdde530),"( tsdde530)"
+"91",Public health,sd_ph),"( sd_ph)"
+"92",Healthy life years and life expectancy at birth, by sex,tsdph100),"( tsdph100)"
+"93",Health and health inequalities,sd_ph_hlt),"( sd_ph_hlt)"
+"94",Death rate due to chronic diseases,tsdph210),"( tsdph210)"
+"95",Suicide death rate, by age group,tsdph240),"( tsdph240)"
+"96",Self-reported unmet needs for medical care due to being too expensive, by income quintile,tsdph270),"( tsdph270)"
+"97",People having a long-standing illness or health problem, by income quintile,tsdph280),"( tsdph280)"
+"98",Determinants of health,sd_ph_det),"( sd_ph_det)"
+"99",Production of toxic chemicals, by toxicity class,tsdph320),"( tsdph320)"
+"100",Urban population exposure to air pollution by particulate matter,tsdph370),"( tsdph370)"
+"101",Urban population exposure to air pollution by ozone,tsdph380),"( tsdph380)"
+"102",Proportion of population living in households considering that they suffer from noise,tsdph390),"( tsdph390)"
+"103",Non-fatal accidents at work by sex,NACE Rev. 2, A, C-N) (tsdph400),"( NACE Rev. 2, A, C-N) (tsdph400)"
+"104",Climate change and energy,sd_cc),"( sd_cc)"
+"105",Greenhouse gas emissions,tsdcc100),"( tsdcc100)"
+"106",Primary energy consumption,tsdcc120),"( tsdcc120)"
+"107",Climate change,sd_cc_cli),"( sd_cc_cli)"
+"108",Greenhouse gas emissions by sector,source: EEA) (tsdcc210),"( source: EEA) (tsdcc210)"
+"109",Greenhouse gas emissions intensity of energy consumption,tsdcc220),"( tsdcc220)"
+"110",Energy,sd_cc_nrg),"( sd_cc_nrg)"
+"111",Energy dependence,tsdcc310),"( tsdcc310)"
+"112",Share of renewable energy in gross final energy consumption,t2020_31),"( t2020_31)"
+"113",Gross inland energy consumption by fuel type,tsdcc320),"( tsdcc320)"
+"114",Electricity generated from renewable sources,tsdcc330),"( tsdcc330)"
+"115",Share of renewable energy in fuel consumption of transport,tsdcc340),"( tsdcc340)"
+"116",Combined heat and power generation,tsdcc350),"( tsdcc350)"
+"117",Sustainable transport,sd_tr),"( sd_tr)"
+"118",Energy consumption of transport relative to GDP,tsdtr100),"( tsdtr100)"
+"119",Transport and mobility,sd_tr_tgr),"( sd_tr_tgr)"
+"120",Modal split of passenger transport,tsdtr210),"( tsdtr210)"
+"121",Modal split of freight transport,tsdtr220),"( tsdtr220)"
+"122",Volume of freight transport relative to GDP,tsdtr230),"( tsdtr230)"
+"123",Volume of passenger transport relative to GDP,tsdtr240),"( tsdtr240)"
+"124",Energy consumption of transport, by mode,tsdtr250),"( tsdtr250)"
+"125",Transport impacts,sd_tr_imp),"( sd_tr_imp)"
+"126",Greenhouse gas emissions from transport,tsdtr410),"( tsdtr410)"
+"127",People killed in road accidents,tsdtr420),"( tsdtr420)"
+"128",Emissions of nitrogen oxides,NOx) from transport (tsdtr430),"( NOx) from transport (tsdtr430)"
+"129",Emissions of particulate matter from transport,tsdtr440),"( tsdtr440)"
+"130",Average carbon dioxide emissions per km from new passenger cars,tsdtr450),"( tsdtr450)"
+"131",Contextual indicator,sd_tr_prc),"( sd_tr_prc)"
+"132",HICP - annual average indices for transport prices,tsdtr310),"( tsdtr310)"
+"133",Natural resources,sd_nr),"( sd_nr)"
+"134",Common bird index,tsdnr100),"( tsdnr100)"
+"135",Biodiversity,sd_nr_bio),"( sd_nr_bio)"
+"136",Sufficiency of sites designated under the EU Habitats directive,tsdnr210),"( tsdnr210)"
+"137",Fresh water resources,sd_nr_wat),"( sd_nr_wat)"
+"138",Water exploitation index,tsdnr310),"( tsdnr310)"
+"139",Population connected to urban wastewater treatment with at least secondary treatment,tsdnr320),"( tsdnr320)"
+"140",Biochemical oxygen demand in rivers,tsdnr330),"( tsdnr330)"
+"141",Marine ecosystems,sd_nr_mar),"( sd_nr_mar)"
+"142",Fishing fleet, total engine power,tsdnr420),"( tsdnr420)"
+"143",Land use,sd_nr_lnd),"( sd_nr_lnd)"
+"144",Artificial land cover,tsdnr510),"( tsdnr510)"
+"145",Forest increment and fellings,tsdnr520),"( tsdnr520)"
+"146",Gross nutrient balance on agricultural land,t2020_rn310),"( t2020_rn310)"
+"147",Global partnership,sd_gp),"( sd_gp)"
+"148",Official development assistance as share of gross national income,tsdgp100),"( tsdgp100)"
+"149",Globalisation of trade,sd_gp_glo),"( sd_gp_glo)"
+"150",EU Imports from developing countries by income group,tsdgp210),"( tsdgp210)"
+"151",EU Imports from developing countries by group of products,tsdgp220),"( tsdgp220)"
+"152",EU imports from least-developed countries by group of products,tsdgp230),"( tsdgp230)"
+"153",Aggregated measurement of support for agriculture,tsdgp240),"( tsdgp240)"
+"154",Financing for sustainable development,sd_gp_fin),"( sd_gp_fin)"
+"155",EU financing for developing countries, by type,tsdgp310),"( tsdgp310)"
+"156",Foreign direct investment in developing countries, by income group,tsdgp320),"( tsdgp320)"
+"157",Official development assistance, by income group,tsdgp330),"( tsdgp330)"
+"158",Untied official development assistance,tsdgp340),"( tsdgp340)"
+"159",Bilateral official development assistance, by category,tsdgp350),"( tsdgp350)"
+"160",Global resource management,sd_gp_res),"( sd_gp_res)"
+"161",CO2 emissions per inhabitant in the EU and in developing countries,tsdgp410),"( tsdgp410)"
+"162",Contextual indicators,sd_gp_cxt),"( sd_gp_cxt)"
+"163",Official Development Assistance per capita in donor and recipient countries,tsdgp520),"( tsdgp520)"
+"164",Good governance,sd_go),"( sd_go)"
+"165",Policy coherence and effectiveness,sd_go_pol),"( sd_go_pol)"
+"166",New infringement cases,tsdgo210),"( tsdgo210)"
+"167",Transposition deficit,tsdgo220),"( tsdgo220)"
+"168",Openness and participation,sd_go_ope),"( sd_go_ope)"
+"169",Voter turnout in national and EU parliamentary elections,tsdgo310),"( tsdgo310)"
+"170",Economic instruments,sd_go_ins),"( sd_go_ins)"
+"171",Shares of environmental and labour taxes in total tax revenues from taxes and social contributions,tsdgo410),"( tsdgo410)"
+"172",Implicit tax rate on energy,tsdcc360),"( tsdcc360)"
+"173",Contextual indicators,sd_go_cxt),"( sd_go_cxt)"
+"174",Level of citizens' confidence in EU institutions,tsdgo510),"( tsdgo510)"

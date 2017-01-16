@@ -5,13 +5,15 @@
 sdg <- read.csv("data/sdg_raw.csv", header=TRUE, na.strings="NA", strip.white=TRUE, stringsAsFactors = FALSE)
 sds <- read.csv("data/sds_raw.csv", header=TRUE, na.strings="NA", strip.white=TRUE, stringsAsFactors = FALSE)
 
+sdg_goals <- read.csv("data/sdg_goals.csv", header=TRUE, na.strings="NA", strip.white=TRUE, stringsAsFactors = FALSE)
+
 str(sdg)
 str(sds)
 
 # Daten transformieren ----
 
 # sdg Tabelle transformieren
-sdg$id <- do.call("rbind", strsplit(sub(" ", ";", sdg$indicator_sdg), ";"))
+sdg$text <- do.call("rbind", strsplit(sub(" ", ";", sdg$indicator_sdg), ";"))
 sdg$indicator_sdg <- sub(".*? (.+)", "\\1", sdg[,1]) #the regular expression that contains terms to be removed:
 # sdg[,2] <- NULL # drop second column (not needed)
 
@@ -20,6 +22,10 @@ sdg$indicator_sdg <- sub(".*? (.+)", "\\1", sdg[,1]) #the regular expression tha
 sds$id <- paste("(", sub(".*? \\((.+)", "\\1", sds[,1]) ) #the regular expression that contains terms to be removed:
 sds$indicator_sds <- do.call("rbind", strsplit(sub(" \\(", ";", sds$indicator_sds), ";"))
 
+# SDG Goals Tabelle transformieren
+sdg_goals$text <- do.call("rbind", strsplit(sub(" ", ";", sdg_goals$goals_sdg), ";"))
+sdg_goals$goals_sdg <- sub(".*? (.+)", "\\1", sdg_goals[,1]) #the regular expression that contains terms to be removed:
+# sdg[,2] <- NULL # drop second column (not needed)
 
 # Prepare for kumu import ----
 # https://docs.kumu.io/guides/import.html
@@ -28,6 +34,8 @@ sds$indicator_sds <- do.call("rbind", strsplit(sub(" \\(", ";", sds$indicator_sd
 # install.packages("openNLP")
 library(NLP) 
 library(openNLP)
+options(java.parameters = "- Xmx1024m") # increase memory
+
 tagPOS <-  function(x, ...) {
   s <- as.String(x)
   word_token_annotator <- Maxent_Word_Token_Annotator()
@@ -41,10 +49,13 @@ tagPOS <-  function(x, ...) {
 }
 
 # @TODO: Funktion auf jede Reihe des Vektors anwenden
-sds$tags <-  paste ( lapply( sds$indicator_sds, tagPOS ) )
+test <-  lapply( sds$indicator_sds, tagPOS )
 test_text <- lapply( c("Hallo", "Vater"), tagPOS )
 paste ( test_text[grepl("NN", test_text)] )
 
+# Testing lapply
+x <- c("A","B","C")
+lapply (sds$indicator_sds[2:4],tagPOS)
 
 colnames(sdg)[1] <- "Label"
 
@@ -54,6 +65,13 @@ colnames(sdg)[1] <- "Label"
 
 write.csv(sdg, file = "results/sdg_clean.csv")
 write.csv(sds, file = "results/sds_clean.csv")
+
+#install.packages("xlsx")
+library(xlsx)
+sdg$text <- sdg$id
+write.xlsx(sdg$text, file = "results/sdg_clean.xlsx")
+write.xlsx(sdg_goals$text, file = "results/sdg_goals.xlsx")
+write.xlsx(sds, file = "results/sds_clean.xlsx")
 
 
 
